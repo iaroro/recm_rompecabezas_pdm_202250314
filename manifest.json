@@ -1,0 +1,35 @@
+{
+    "lang": "es-SV",
+    "name": "Puzzle Rodrigo Ernesto Campos",
+    "show_name": "Puzzle Campos Mejia ",
+    "description": "El rompecanezas de 4 piezas representando un animal dificultad facil",
+    "start_url": "./",
+    "background_color": "#2F3D58",
+    "theme_color": "#2F3D58",
+    "orientation": "any",
+    "display": "standalone",
+    "icons": [
+        
+        {
+       "src": "./media/icons/icon.png",
+       "sizes": "256x256"
+    }
+],
+"screenshots":[
+    {
+       "src": "./media/screenshots/wide.png",
+       "sizes": "1920x913",
+       "type": "image/png",
+       "form_factor": "wide",
+       "label": "Rompecabezas escritorio °"
+    },
+
+    {
+        "src": "./media/screenshots/narrow.png",
+        "sizes": "1442x3206",
+        "type": "image/png",
+       "form_factor": "narrow",
+       "label": "Rompecabezas movil"
+     }
+]
+}

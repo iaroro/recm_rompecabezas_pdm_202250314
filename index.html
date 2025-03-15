@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Aplicación web practica de rompecabeza" />
+    <meta name="keywords" content="rompecabezas,matematico,conversion,desarrollo,juego,practica,investigacion,estudio," />
+    <meta name="autor" content="Rodrigo Ernesto Campos Mejia CM100121" />
+    <meta name="copyright" content="2025 RECM Rompecabeza" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Puzzle Rodrigo Ernesto Campos</title>
+    <link rel="shortcut icon" href="media/icons/icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="manifest" href="manifest.json"/>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        if('serviceWorker' in navigator){
+            navigator.serviceWorker.register('sw.js',{scope:'./'});
+        }
+
+    </script>
+   
+</head>
+<body>
+    
+<p id="Indicaciones">
+    <b> Indicaciones</b>
+    Arrastre una por una las piezas de puzzle hasta tener completamente el ejercicio.
+</p>
+<div id="div1" class="area" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br />
+
+<img id="drag1" src="media/puzzle/01.jpg" draggable="true" ondragstart="drag(event)" width="300" height="auto"/>
+<img id="drag2" src="media/puzzle/00.jpg" draggable="true" ondragstart="drag(event)" width="300" height="auto"/>
+<img id="drag3" src="media/puzzle/11.jpg" draggable="true" ondragstart="drag(event)" width="300" height="auto"/>
+<img id="drag4" src="media/puzzle/10.jpg" draggable="true" ondragstart="drag(event)" width="300" height="auto"/>
+</body>
+</html>

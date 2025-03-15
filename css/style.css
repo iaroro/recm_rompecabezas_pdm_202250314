@@ -1,0 +1,15 @@
+*{
+    padding:  0;
+    margin: 0;
+}
+
+#indicaciones{
+text-align: center;
+}
+.area{
+    margin: auto;
+    width: 600px;
+    height: 406px;
+    padding: 10px;
+    border: 1px solid #BBBBBB;
+}
